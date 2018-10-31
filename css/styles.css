@@ -5,8 +5,38 @@
 
 body {
   background: #fcc;
-} 
+}
+ul.navbarul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 
+.navbarul a{
+  text-decoration: none;
+}
+
+.navbarul a:hover {
+  text-decoration: none;
+}
+
+
+.menu {
+  background-color: red;
+  color: Black;
+  line-height: 2em;
+  text-align: center;
+}
+
+.navbarul a{
+  display:none
+}
 
 
 /* TABLET STYLES */
@@ -17,7 +47,15 @@ body {
   
   body {
     background: #cfc;
-  } 
+  }
+
+  .menu {
+    display:none;
+  }
+
+  .navbarul a {
+    display:flex;
+  }
 }
 
 
